@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MimicAPI</name>
+    </assembly>
+    <members>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.ObterTodas(MimicAPI.Util.PalavraUrlQuery)">
+            <summary>
+            Operação que busca todas as palavras existentes no banco de dados
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Lista de palavras</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Obter(System.Int32)">
+            <summary>
+            Operação que busca uma única palavra no banco de dados
+            </summary>
+            <param name="id">Identificador da palavra</param>
+            <returns>Objeto de palavra</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Cadastrar(MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza o cadastro da palavra
+            </summary>
+            <param name="palavra">Objeto palavra</param>
+            <returns>Objeto palavra com seu id</returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Atualizar(System.Int32,MimicAPI.V1.Models.Palavra)">
+            <summary>
+            Operação que realiza a substituição de dados de uma palavra específica
+            </summary>
+            <param name="id">Identificador da palavra a ser atualizada</param>
+            <param name="palavra">Objeto de palavra</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V1.Controllers.PalavrasController.Deletar(System.Int32)">
+            <summary>
+            Operação que desativa uma palavra do sistema
+            </summary>
+            <param name="id">Identificador da palavra</param>
+            <returns></returns>
+        </member>
+        <member name="M:MimicAPI.V2.Controllers.PalavrasController.ObterTodas">
+            <summary>
+            Operação que busca todas as palavras existentes no banco de dados
+            </summary>
+            <param name="query">Filtros de pesquisa</param>
+            <returns>Lista de palavras</returns>
+        </member>
+    </members>
+</doc>

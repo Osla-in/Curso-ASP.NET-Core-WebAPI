@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\oslain.maciel.GRECA_AR\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\oslain.maciel.GRECA_AR\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ]
+  }
+}
