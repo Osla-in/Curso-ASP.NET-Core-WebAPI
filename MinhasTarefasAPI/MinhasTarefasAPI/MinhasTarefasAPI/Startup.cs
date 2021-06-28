@@ -8,6 +8,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MinhasTarefasAPI.DataBase;
+using MinhasTarefasAPI.Repositories;
+using MinhasTarefasAPI.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,6 +34,8 @@ namespace MinhasTarefasAPI
             {
                 op.UseSqlite("Data Source=DataBase\\MinhasTarefas.db");
             });
+            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<ITarefaRepository, TarefaRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
